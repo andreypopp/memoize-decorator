@@ -16,6 +16,7 @@ Example:
 
     class Component {
 
+      @memoize
       get expensiveValue() {
         console.log('heavy computations')
         return 42
