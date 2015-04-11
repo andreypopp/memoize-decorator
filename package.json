@@ -1,6 +1,6 @@
 {
   "name": "memoize-decorator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Memoize getters and methods to compute only once",
   "main": "lib/index.js",
   "author": "Andrey Popp <8mayday@gmail.com>",
