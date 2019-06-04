@@ -12,17 +12,19 @@ Installation:
 
 Example:
 
-    import memoize from 'memoize-decorator'
+```js
+import memoize from 'memoize-decorator'
 
-    class Component {
+class Component {
 
-      @memoize
-      get expensiveValue() {
-        console.log('heavy computations')
-        return 42
-      }
-    }
+  @memoize
+  get expensiveValue() {
+    console.log('heavy computations')
+    return 42
+  }
+}
 
-    let component = new Component()
-    component.expensiveValue // prints 'heavy computations', returns 42
-    component.expensiveValue // just returns 42
+let component = new Component()
+component.expensiveValue // prints 'heavy computations', returns 42
+component.expensiveValue // just returns 42
+```
