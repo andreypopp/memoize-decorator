@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "author": "Andrey Popp <8mayday@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreypopp/memoize-decorator.git"
+  },
   "devDependencies": {
     "babel": "^5.0.12",
     "babelify": "^6.0.2",
